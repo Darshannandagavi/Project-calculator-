@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Device Selection</title>
+    <style>
+        /* Your styles here */
+    </style>
+</head>
+<body>
+    <h1>Select your Brand:</h1>
+    <div class="device" onclick="selectDevice('deviceSelection')">
+        <label>Redmi</label>
+        <input type="radio" name="device" value="redmi">
+    </div>
+    <!-- Add other device selection buttons -->
+
+    <script>
+        function selectDevice(id) {
+            // After selecting a device, redirect to the password page
+            window.location.href = "password.html";
+        }
+    </script>
+</body>
+</html>
